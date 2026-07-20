@@ -1,0 +1,14 @@
+# Project 4 - Student Grade System
+# Created by Dhruv Patil
+
+marks = int(input("Enter marks: "))
+
+if marks >= 75:
+    print("Distinction")
+    print("Congratulations!")
+elif marks >= 40:
+    print("Pass")
+    print("Good Job!")
+else:
+    print("Fail")
+    print("Study Hard!")
